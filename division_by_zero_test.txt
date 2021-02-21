@@ -1,0 +1,9 @@
+
+
+
+int main(){
+
+	int k=5;
+	int m=0;
+	k = k / m;
+}

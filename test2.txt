@@ -1,0 +1,29 @@
+int func1( int a , int b ) {
+	return a + b ;
+}
+void func2( ) {
+	int k = 5 ;
+	int m = 1 ;
+	k = k / m ;
+}
+int main( ) {
+	
+	int t = 10 ;
+	int k ;
+	k = 5 * t ;
+	if (k == 50) {
+		t = 2 * t ;
+		
+	}
+	else {
+		t = t - 2 ;
+	}
+	
+	int c = 0 ;
+	while (c < 5) {
+		c = c + 1 ;
+	}
+	
+	t = func1( 2 , 3 ) ;
+	func2 ( ) ;
+}
